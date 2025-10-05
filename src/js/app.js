@@ -37,15 +37,3 @@ export default class GameSavingLoader {
     return result;
   }
 }
-
-// GameSavingLoader.load()
-//   .then((saving) => {
-//     // Успешная загрузка: working with GameSaving object
-//     console.log('ID сохранения:', saving.id);
-//     console.log('Имя пользователя:', saving.userInfo.name);
-//     console.log('Уровень:', saving.userInfo.level);
-//   })
-//   .catch((error) => {
-//     // Обработка ошибки
-//     console.log('Ошибка:', error.message);
-//   });
